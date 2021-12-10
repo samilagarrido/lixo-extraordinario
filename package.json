@@ -16,5 +16,13 @@
     "express": "^4.17.1",
     "mongoose": "^6.1.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samgrs/lixo-eletronico.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samgrs/lixo-eletronico/issues"
+  },
+  "homepage": "https://github.com/samgrs/lixo-eletronico#readme"
 }
