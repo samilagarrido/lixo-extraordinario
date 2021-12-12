@@ -16,7 +16,7 @@ const placesSchema = new mongoose.Schema({
   },
   telefone: {
     type: Number,
-    required: true
+    required: false
   }, 
 })
 
