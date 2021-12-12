@@ -1,0 +1,144 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API de cadastro de locais de coleta de lixo eletrônico.",
+        "description": "O objetivo da API é fazer o cadastro de lugares de coleta de lixo eletônico, visando a redução do descarte irregular desse material.",
+        "termsOfService": "localhost:4000/terms/",
+        "contact": {
+            "email": "samilagrodrigues@gmail.com"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url":"localhost:4000/",
+            "description": "API Lixo Eletônico"
+    }
+],
+"tags": [
+    {
+        "name": "Locais de coleta",
+        "description": "Manipulação das Rotas dos pontos de coleta"
+    }
+],
+"paths": {
+    "/places/create": {
+        "post": {
+            "summary": "Criar/cadastrar Locais de Coleta",
+            "description": "Cadastro de locais de coleta de e-lixo",
+            "tags": ["Locais Criados"],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/places"
+                        } 
+                    }
+                }
+            },
+            "responses": {
+                "500": {
+                    "description": "Internal Server Error"
+                },
+                "200": {
+                    "description": "Operação realizada com sucesso!",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/places"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/places/all": {
+        "get": {
+            "description": "Retorna todos os locais de coleta de e-lixo",
+            "summary": "Retorna todos os locais de coleta",
+            "tags": ["Locais Cadastrados"],
+            "parameters": [
+                {
+                    "name": "Lista locais por nome",
+                    "in": "query",
+                    "busca": "Todos os locais por nome",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Operação realizada com sucesso!",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/places"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/places/update:id": {
+        "put": {
+            "description": "Atualizar lugares de coleta por ID",
+            "summary": "Atualiza os locais de coleta por ID",
+            "tags": ["Locais Atualizados"],
+            "parameters": [
+                {
+                    "name": "Atualiza locais por ID",
+                    "in": "path",
+                    "busca": "Atualiza locais por ID",
+                    "required": true
+                }
+            ],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/places"
+                        }   
+                    }
+                }
+            },
+            "responses": {
+                "200": {
+                    "description": "Operação realizada com sucesso!",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/places"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+},
+"components": {
+    "schemas": {
+        "places": {
+            "type": "object",
+            "properties": {
+                "nome": {
+                    "type": "String"
+                  }, 
+                  "endereco": {
+                    "type": "String"
+                  }, 
+                  "cidade": {
+                    "type": "String"
+                  },
+                  "telefone": {
+                    "type": "Number"
+                  }
+            }
+        }
+    }
+}
+}
