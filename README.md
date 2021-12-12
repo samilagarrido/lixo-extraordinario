@@ -3,7 +3,7 @@
     <p align="center">Projeto Final {Reprograma}<p>
 </h1>
 <p align="center">
-<img src="./imagens/img.png" width="90%" height="90%"/>
+<img src="./assets/img.png" width="90%" height="90%"/>
 </p>
 <br>
 
