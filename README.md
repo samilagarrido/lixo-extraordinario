@@ -1,13 +1,13 @@
 <h1 align="center">
     <br>
-    <p align="center">Projeto Final {Reprograma}<p>
+    <p align="center">Projeto Final {reprograma}<p>
 </h1>
 <p align="center">
 <img src="./assets/img.png" width="90%" height="90%"/>
 </p>
 <br>
 
-## 💻 Sobre o projeto 
+## 👩🏼‍💻 Sobre o projeto 
 
 <br>
 
@@ -27,7 +27,7 @@
   
 <br>
 
-## ⚙️ Funcionalidades
+## 🛠️ Funções
 
 - Cadastro de locais de coleta de lixo eletrônico;
 - Listagem de estabelecimentos de coleta;
@@ -36,7 +36,7 @@
 
 <br>
 
-## 📚 Aprendizados
+## 📖 Aprendizados
 
 O projeto final consiste em uma API fundamentada no CRUD, que são:  CREATE (CRIAR), READ(LEITURA), UPDATE(ATUALIZAR) e DELETE(DESTRUIÇÃO). 
 
@@ -58,7 +58,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 - [Vscode](https://code.visualstudio.com/)
 - [Heroku](https://dashboard.heroku.com/apps)  
 
-### Dependências Utilizadas 
+### 🛠️ Dependências Utilizadas 
 
 - [Express](https://expressjs.com/pt-br/)
 - [Nodemon](https://nodemon.io/)
@@ -73,7 +73,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ## 📁 Arquitetura MVC 
 
 ```
- 📁 lixo-eletronico
+ 📁 on14-lixo-eletronico-samila
    |
    |-  📁 src
    |    |
@@ -105,7 +105,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ```
 <br>
 
-## 🔃 Rotas
+## ➡️  Rotas
 
 * local: http://localhost:4000
 
@@ -115,7 +115,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 <br>
 
-## 🔃 Retorna a documentação no swagger 
+## ➡️  Retorna a documentação no swagger 
     
 Swagger - Heroku: https://on14-lixo-eletronico-samila.herokuapp.com/api-docs/
 
@@ -125,7 +125,7 @@ Swagger - Heroku: https://on14-lixo-eletronico-samila.herokuapp.com/api-docs/
 
 <br>
 
-## 🔃 Retorna teste com apresentação 
+## ➡️  Retorna teste com apresentação 
 
 | Método HTTP  | Endpoint                     | Descrição                            |
 | ------------ | ---------------------------- | ------------------------------------ |
@@ -133,7 +133,7 @@ Swagger - Heroku: https://on14-lixo-eletronico-samila.herokuapp.com/api-docs/
 
 <br>
 
-## 🔃 Manipulação das Rotas de Autores:
+## ➡️  Manipulação das Rotas de Autores:
 
 | Método HTTP  | Endpoint                | Descrição                               |
 | -------------| ------------------------| ----------------------------------------|
@@ -145,7 +145,7 @@ Swagger - Heroku: https://on14-lixo-eletronico-samila.herokuapp.com/api-docs/
 
 <br>
 
-## ✅ Dados para Collection
+## ➡️  Dados para Collection
 
 - id: gerado automaticamente; obrigatório
 - nome: string obrigatória
@@ -155,7 +155,7 @@ Swagger - Heroku: https://on14-lixo-eletronico-samila.herokuapp.com/api-docs/
 
 <br>
 
-## ✅ API retorna seguinte JSON:
+## ➡️  API retorna seguinte JSON:
 
 ```jsx
 
@@ -171,7 +171,7 @@ Swagger - Heroku: https://on14-lixo-eletronico-samila.herokuapp.com/api-docs/
 
 ```
 
-## Melhorias futuras
+## Melhorias
 
 <br>
 
@@ -182,7 +182,7 @@ Esse é um projeto open source! Contribua!
 
 <br>
 
-## 👨‍💻 Um pouco sobre mim
+## 👩🏼‍💻 Um pouco sobre mim
 
 <br>
 
