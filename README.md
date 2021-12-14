@@ -17,7 +17,7 @@
 
 <br><br>
 
-## ♻️ Descrição da API Lixo Eletônico
+## ♻️ Lixo Extraordinário: uma API sobre lixo eletrônico
 
 <br>
 
@@ -25,6 +25,11 @@
 
 <p align="justify">A interface é um CRUD completo integrado com o banco de dados, onde é listado os locais de coleta, cadastro de novos endereços, atualização dos dados e deleção de locais que foram inseridos. 
   
+<br>
+
+## 🔗 Link 
+
+- [Apresentação](https://www.canva.com/design/DAEyhHUs7PQ/D9gSA-VfzkmT7RgMpg8sHg/view?utm_content=DAEyhHUs7PQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 <br>
 
 ## 🛠️ Funções
@@ -109,7 +114,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 * local: http://localhost:4000
 
-* Heroku: https://on14-lixo-eletronico-samila.herokuapp.com
+* Heroku: https://lixo-extraordinario.herokuapp.com/places/all
 
     * Utilize o [Postman](https://www.postman.com/) 
 
@@ -117,7 +122,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 ## ➡️  Retorna a documentação no swagger 
     
-Swagger - Heroku: https://on14-lixo-eletronico-samila.herokuapp.com/api-docs/
+Swagger - Heroku: https://lixo-extraordinario.herokuapp.com/places/all
 
 | Método HTTP  | Endpoint                            | Descrição                            |
 | ------------ | ----------------------------------- | ------------------------------------ |
@@ -177,6 +182,7 @@ Swagger - Heroku: https://on14-lixo-eletronico-samila.herokuapp.com/api-docs/
 
 *  Integração com Front-End para a criação de uma interface mais dinâmica
 *  Autenticação das rotas
+*  Parcerias com ONGs
 
 Esse é um projeto open source! Contribua!
 
@@ -195,3 +201,12 @@ Esse é um projeto open source! Contribua!
 
 <br>
  Essa API desenvolvida como Projeto Final do curso de Backend da [{reprograma}](https://reprograma.com.br/)
+
+## Agradecimentos
+
+À Paula Allemand, que esteve comigo desde o dia zero - minha professora da oficina de seleção. 
+À Hannah Freitas, que juntas vibramos a seleção da outra. Todo meu coração a você, querida. Espero te conhecer fisicamente em breve.
+À Raquel, Jess, Tábita, Keylla, Tássila, Analu, Lilith, Edilaine, Bea, Tereza, Renata, monitoras e às mulheres da {reprograma} que estiveram por trás das cortinas: obrigada por contribuirem tão organicamente na minha vida.
+
+E finalmente, à On14[Amanda, Analia, Ananda, Andréa, Camila, Clarice, Daniele, Darielly, Deborah, Edilaine, Elcilene, Érika, Estefanya, Ester, Grazielle, Ingrydt, Jaciara, Janaina, Jeni, Júlia, Juliana, Kamila, LEtícia, MAbiá, Milena, Rafaela, Raissa, Ravena, Samara, Talita, Victoria, Xênia, Yara, Yhasmin]. A história de vocês seguirá comigo.
+Obrigada.
