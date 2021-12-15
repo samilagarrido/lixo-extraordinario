@@ -78,7 +78,7 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 ## 📁 Arquitetura MVC 
 
 ```
- 📁 on14-lixo-eletronico-samila
+ 📁 lixo-extraordinario
    |
    |-  📁 src
    |    |
