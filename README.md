@@ -13,7 +13,7 @@
 
 <p align="justify">Desenvolvi essa aplicação porque acredito que pequenas revoluções individuais podem mudar o mundo. De acordo com o relatório The Global E-Waste Monitor 2017 da ONU, o Brasil produz em média 1,5 milhão de toneladas de lixo eletrônico por ano. No mundo, foram gerados o equivalente a 4,5 mil Torres  Eiffel de lixo eletrônico (44,7 milhões de toneladas). E até 2021, a previsão é que esse número suba para 52,2 milhões de toneladas por ano.
 
-<p align="justify">Poucas informações são divulgadas sobre pontos de coleta desse tipo de resíduo - que usualmente são descartados junto com o lixo comum. Trago informações sobre pontos de coleta na cidade de João Pessoa-PB. A API busca incentivar o destino ecologicamente correto para o e-lixo, bem como a reciclagem e a conscientização. Espero desencandear uma cadeia de ações. Essa é minha voz.
+<p align="justify">Poucas informações são divulgadas sobre pontos de coleta desse tipo de resíduo - que usualmente são descartados junto com o lixo comum. Trago informações sobre pontos de coleta na cidade de João Pessoa-PB. A API busca incentivar o destino ecologicamente correto para o e-lixo, bem como a reciclagem e a conscientização. Espero desencadear uma cadeia de ações. Essa é minha voz.
 
 <br><br>
 
@@ -205,15 +205,18 @@ Esse é um projeto open source! Contribua!
 ## Agradecimentos
 
 À Paula Allemand, que esteve comigo desde o dia zero - minha professora da oficina de seleção. 
+<br>
 À Hannah Freitas, que juntas vibramos a seleção da outra. Todo meu coração a você, querida. Espero te conhecer fisicamente em breve.
+<br>
 À Raquel, Jess, Tábita, Keylla, Tássila, Analu, Lilith, Edilaine, Bea, Tereza, Renata, monitoras e às mulheres da {reprograma} que estiveram por trás das cortinas: obrigada por contribuirem tão organicamente na minha vida.
-
+<br>
 E finalmente, à On14 [Amanda, Analia, Ananda, Andréa, Camila, Clarice, Daniele, Darielly, Deborah, Edilaine, Elcilene, Érika, Estefanya, Ester, Grazielle, Ingrydt, Jaciara, Janaina, Jeni, Júlia, Juliana, Kamila, LEtícia, MAbiá, Milena, Rafaela, Raissa, Ravena, Samara, Talita, Victoria, Xênia, Yara, Yhasmin]. A história de vocês seguirá comigo.
+<br>
 Obrigada.
 <br>
 
 ## Referências
 
 Disponível em: <https://greeneletron.org.br/blog/o-que-e-o-lixo-eletronico/>. Acesso em 11 dez. 2021
-
+<br>
 MUNIZ, V. Lixo Extraordinário. São Paulo: G ERmakoff casa editorial, 2010. PDAM (Plano Diretor do Arco Metropolitano do Rio de Janeiro), Relatório Final, 2011.
