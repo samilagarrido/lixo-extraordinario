@@ -192,7 +192,7 @@ Esse é um projeto open source! Contribua!
 
 <br>
 
-<img src="./assets/samila.png" width="30%" height="30%"/>
+<img src="./assets/sam.png" width="90%" height="90%"/>
 
 <br>
 <td align="center"><a href="https://github.com/samgrs">
