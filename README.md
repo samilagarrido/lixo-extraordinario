@@ -196,7 +196,7 @@ Esse é um projeto open source! Contribua!
 <img style="border-radius: 20%;" src="https://www.linkedin.com/in/samila-rodrigues/" width="200px;" alt=""/> </td><br> 
 
 
-## [Github] (https://github.com/samgrs)
+## [Github](https://github.com/samgrs)
 ## [LinkedIn](https://www.linkedin.com/in/samila-rodrigues/) 
 
 <br>
