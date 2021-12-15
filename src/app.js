@@ -1,22 +1,22 @@
 const express = require('express');
 const cors = require('cors');
-const swaggerUi = require('swagger-ui-express');
-const swaggerJsDoc = require('./swagger.json');
+const  swaggerUi  =  require('swagger-ui-express')  
+const  swaggerDocument  =  require('./swagger.json')
 
-require('dotenv-safe').config();
 const db = require("./database/mongoConfig")
-
-
-const placesRoutes = require("./routes/placesRoutes")
-
 const app = express()
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup('./swagger.json'));
+const placesRoutes = require("./routes/placesRoutes")
+require('dotenv-safe').config();
+
+db.connect()
+
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 app.use(cors())
 app.use(express.json())
 app.use("/places", placesRoutes);
 
-db.connect()
 
 module.exports = app
