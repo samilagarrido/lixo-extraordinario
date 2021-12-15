@@ -32,7 +32,17 @@
                     "application/json": {
                         "schema": {
                             "$ref": "#/components/schemas/places"
-                        } 
+                        },
+                        "example": {
+                            "Locais":{
+                                "value": {
+                                        "_id": "61b3a66b148021b2914e3cb0",
+                                        "nome": "Núcleo de Serviço Centro Dia",
+                                        "endereco": "Av. Gouveia da Nóbrega, Bairro do Roger – próximo à entrada principal do Parque Zoobotânico Arruda Câmara – Bica",
+                                        "cidade": "João Pessoa-PB"
+                                }
+                            }
+                        }
                     }
                 }
             },
@@ -47,6 +57,16 @@
                             "schema": {
                                 "type": "object",
                                 "$ref": "#/components/schemas/places"
+                            },
+                            "example": {
+                                "Locais":{
+                                    "value": {
+                                            "_id": "61b3a66b148021b2914e3cb0",
+                                            "nome": "Núcleo de Serviço Centro Dia",
+                                            "endereco": "Av. Gouveia da Nóbrega, Bairro do Roger – próximo à entrada principal do Parque Zoobotânico Arruda Câmara – Bica",
+                                            "cidade": "João Pessoa-PB"
+                                    }
+                                }
                             }
                         }
                     }
@@ -75,6 +95,51 @@
                             "schema": {
                                 "type": "object",
                                 "$ref": "#/components/schemas/places"
+                            },
+                            "example": {
+                                "Locais":{
+                                    "value": {
+                                            "_id": "61b3a66b148021b2914e3cb0",
+                                            "nome": "Núcleo de Serviço Centro Dia",
+                                            "endereco": "Av. Gouveia da Nóbrega, Bairro do Roger – próximo à entrada principal do Parque Zoobotânico Arruda Câmara – Bica",
+                                            "cidade": "João Pessoa-PB"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "/search:id": {
+        "get": {
+            "description": "Retorna todos os locais de coleta de e-lixo por ID",
+            "summary": "Retorna todos os locais de coleta por ID",
+            "tags": ["Locais Cadastrados"],
+            "parameters": [
+                {
+                    "name": "Lista locais por ID",
+                    "in": "query",
+                    "busca": "Todos os locais por ID",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Operação realizada com sucesso!",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/places"
+                            },
+                            "example": {
+                                "Locais":{
+                                    "value": {
+                                            "_id": "61b3a66b148021b2914e3cb0"
+                                    }
+                                }
                             }
                         }
                     }
@@ -112,6 +177,16 @@
                             "schema": {
                                 "type": "object",
                                 "$ref": "#/components/schemas/places"
+                            },
+                            "example": {
+                                "Locais":{
+                                    "value": {
+                                            "_id": "61b3a66b148021b2914e3cb0",
+                                            "nome": "Núcleo de Serviço Centro Dia",
+                                            "endereco": "Av. Gouveia da Nóbrega, Bairro do Roger – próximo à entrada principal do Parque Zoobotânico Arruda Câmara – Bica",
+                                            "cidade": "João Pessoa-PB"
+                                    }
+                                }
                             }
                         }
                     }
@@ -120,6 +195,34 @@
         }
     }
 },
+    "/delete:id": {
+        "delete": {
+            "description": "Deleção de locais de coleta de e-lixo por ID",
+            "summary": "Retorna a deleção de locais de coleta de e-lixo por ID",
+            "tags": ["Deleção de Locais por ID"],
+            "parameters": [
+                {
+                    "name": "Deleção de Locais por ID",
+                    "in": "query",
+                    "busca": "Deleção de Locais por ID",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Operação realizada com sucesso!",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/places"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
 "components": {
     "schemas": {
         "places": {
