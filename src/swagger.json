@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "API de cadastro de locais de coleta de lixo eletrônico.",
+        "title": "Lixo Extraordinário: uma API sobre lixo eletrônico",
         "description": "O objetivo da API é fazer o cadastro de lugares de coleta de lixo eletônico, visando a redução do descarte irregular desse material.",
         "termsOfService": "localhost:4000/terms/",
         "contact": {
