@@ -200,6 +200,7 @@ Esse é um projeto open source! Contribua!
 ## [LinkedIn](https://www.linkedin.com/in/samila-rodrigues/) 
 
 <br>
+
  Essa API desenvolvida como Projeto Final do curso de Backend da [{reprograma}](https://reprograma.com.br/)
 
 ## Agradecimentos
