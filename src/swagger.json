@@ -112,7 +112,7 @@
             }
         }
     },
-    "/search:id": {
+    "/search/:id": {
         "get": {
             "description": "Retorna todos os locais de coleta de e-lixo por ID",
             "summary": "Retorna todos os locais de coleta por ID",
@@ -147,7 +147,7 @@
             }
         }
     },
-    "/places/update:id": {
+    "/update/:id": {
         "put": {
             "description": "Atualizar lugares de coleta por ID",
             "summary": "Atualiza os locais de coleta por ID",
@@ -195,7 +195,7 @@
         }
     }
 },
-    "/delete:id": {
+    "/delete/:id": {
         "delete": {
             "description": "Deleção de locais de coleta de e-lixo por ID",
             "summary": "Retorna a deleção de locais de coleta de e-lixo por ID",
