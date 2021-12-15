@@ -147,6 +147,34 @@
             }
         }
     },
+    "/places/delete/:id": {
+        "delete": {
+            "description": "Deleção de locais de coleta de e-lixo por ID",
+            "summary": "Retorna a deleção de locais de coleta de e-lixo por ID",
+            "tags": ["Deleção de Locais por ID"],
+            "parameters": [
+                {
+                    "name": "Deleção de Locais por ID",
+                    "in": "path",
+                    "busca": "Deleção de Locais por ID",
+                    "required": true
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Operação realizada com sucesso!",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "$ref": "#/components/schemas/places"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
     "/places/update/:id": {
         "put": {
             "description": "Atualizar lugares de coleta por ID",
@@ -195,34 +223,7 @@
         }
     }
 },
-    "/places/delete/:id": {
-        "delete": {
-            "description": "Deleção de locais de coleta de e-lixo por ID",
-            "summary": "Retorna a deleção de locais de coleta de e-lixo por ID",
-            "tags": ["Deleção de Locais por ID"],
-            "parameters": [
-                {
-                    "name": "Deleção de Locais por ID",
-                    "in": "path",
-                    "busca": "Deleção de Locais por ID",
-                    "required": true
-                }
-            ],
-            "responses": {
-                "200": {
-                    "description": "Operação realizada com sucesso!",
-                    "content": {
-                        "application/json": {
-                            "schema": {
-                                "type": "object",
-                                "$ref": "#/components/schemas/places"
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    },
+
 "components": {
     "schemas": {
         "places": {
