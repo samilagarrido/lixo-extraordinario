@@ -11,7 +11,7 @@ const placesRoutes = require("./routes/placesRoutes")
 
 const app = express()
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup('./swagger.json'));
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerJsDoc));
 
 app.use(cors())
 app.use(express.json())
