@@ -215,3 +215,5 @@ Obrigada.
 ## Referências
 
 Disponível em: <https://greeneletron.org.br/blog/o-que-e-o-lixo-eletronico/>. Acesso em 11 dez. 2021
+
+MUNIZ, V. Lixo Extraordinário. São Paulo: G ERmakoff casa editorial, 2010. PDAM (Plano Diretor do Arco Metropolitano do Rio de Janeiro), Relatório Final, 2011.
