@@ -122,11 +122,11 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 ## ➡️  Retorna a documentação no swagger 
     
-Swagger - Heroku: https://lixo-extraordinario.herokuapp.com/places/all
+Swagger - Heroku: https://lixo-extraordinario.herokuapp.com/api-docs/#/
 
 | Método HTTP  | Endpoint                            | Descrição                            |
 | ------------ | ----------------------------------- | ------------------------------------ |
-| GET          | `http://localhost:4000/api-docs`    |  documentação no swagger             |        
+| GET          | `http://localhost:4000/api-docs`    |  Documentação no swagger             |        
 
 <br>
 
@@ -143,10 +143,10 @@ Swagger - Heroku: https://lixo-extraordinario.herokuapp.com/places/all
 | Método HTTP  | Endpoint                | Descrição                               |
 | -------------| ------------------------| ----------------------------------------|
 | GET          | `/all`                  | Retorna todos os locais de coleta       |
-| GET          | `/search:id`            | Retorna todos os locais de coleta por ID|
+| GET          | `/search/:id`           | Retorna todos os locais de coleta por ID|
 | POST         | `/create`               | Cria/cadastra um novo local de coleta   |
-| PATCH        | `/update:id`            | Atualiza dados de um local por ID       |
-| DELET        | `/delete:id`            | Remove um local específico por ID       |
+| PATCH        | `/update/:id`           | Atualiza dados de um local por ID       |
+| DELET        | `/delete/:id`           | Remove um local específico por ID       |
 
 <br>
 
@@ -192,6 +192,9 @@ Esse é um projeto open source! Contribua!
 
 <br>
 
+<img src="./assets/samila.png" width="30%" height="30%"/>
+
+<br>
 <td align="center"><a href="https://github.com/samgrs">
 <img style="border-radius: 20%;" src="https://www.linkedin.com/in/samila-rodrigues/" width="200px;" alt=""/> </td><br> 
 
