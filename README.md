@@ -67,11 +67,11 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
 - [Express](https://expressjs.com/pt-br/)
 - [Nodemon](https://nodemon.io/)
-- [dotenv](https://www.npmjs.com/package/dotenv)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
 - [Mongoose](https://mongoosejs.com/)
-- [cors](https://www.npmjs.com/package/cors)
-- [nodemon](https://www.npmjs.com/package/nodemon)
-- [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [Swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
 
 <br>
 
