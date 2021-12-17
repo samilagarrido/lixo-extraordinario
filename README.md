@@ -212,7 +212,7 @@ Esse é um projeto open source! Contribua!
 <br>
 À Hannah Freitas, que juntas vibramos a seleção da outra. Todo meu coração a você, querida. Espero te conhecer fisicamente em breve.
 <br>
-À Raquel, Jess, Tábita, Keylla, Tássila, Analu, Lilith, Edilaine, Bea, Tereza, Renata, monitoras e às mulheres da {reprograma} que estiveram por trás das cortinas: obrigada por contribuirem tão organicamente na minha vida.
+À Raquel, Jess, Tábita, Keylla, Tássila, Analu, Lilith, Edilaine, Bea, Tereza, Renata, monitoras e às mulheres da {reprograma} que estiveram por trás das cortinas: obrigada por contribuírem tão organicamente na minha vida.
 <br>
 E finalmente, à On14 [Amanda, Analia, Ananda, Andréa, Camila, Clarice, Daniele, Darielly, Deborah, Edilaine, Elcilene, Érika, Estefanya, Ester, Grazielle, Ingrydt, Jaciara, Janaina, Jeni, Júlia, Juliana, Kamila, LEtícia, MAbiá, Milena, Rafaela, Raissa, Ravena, Samara, Talita, Victoria, Xênia, Yara, Yhasmin]. A história de vocês seguirá comigo.
 <br>
