@@ -213,7 +213,7 @@ Esse é um projeto open source! Contribua!
 <br>
 À Raquel, Jess, Tábita, Keylla, Tássila, Analu, Lilith, Edilaine, Bea, Tereza, Renata, monitoras e às mulheres da {reprograma} que estiveram por trás das cortinas: obrigada por contribuírem tão organicamente na minha vida.
 <br>
-E finalmente, à On14 [Amanda, Analia, Ananda, Andréa, Camila, Clarice, Daniele, Darielly, Deborah, Edilaine, Elcilene, Érika, Estefanya, Ester, Grazielle, Ingrydt, Jaciara, Janaina, Jeni, Júlia, Juliana, Kamila, LEtícia, MAbiá, Milena, Rafaela, Raissa, Ravena, Samara, Talita, Victoria, Xênia, Yara, Yhasmin]. A história de vocês seguirá comigo.
+E finalmente, à On14 [Amanda, Analia, Ananda, Andréa, Camila, Clarice, Daniele, Darielly, Deborah, Edilaine, Elcilene, Érika, Estefanya, Ester, Grazielle, Ingrydt, Jaciara, Janaina, Jeni, Júlia, Juliana, Kamila, Letícia, Mabiá, Milena, Rafaela, Raissa, Ravena, Samara, Talita, Victoria, Xênia, Yara, Yhasmin]. A história de vocês seguirá comigo.
 <br>
 Obrigada.
 <br>
