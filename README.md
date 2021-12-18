@@ -70,7 +70,6 @@ Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 - [Mongoose](https://mongoosejs.com/)
 - [Cors](https://www.npmjs.com/package/cors)
-- [Nodemon](https://www.npmjs.com/package/nodemon)
 - [Swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)
 
 <br>
