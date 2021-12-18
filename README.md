@@ -137,7 +137,7 @@ Swagger - Heroku: https://lixo-extraordinario.herokuapp.com/api-docs/#/
 
 <br>
 
-## ➡️  Manipulação das Rotas de Autores:
+## ➡️  Manipulação das Rotas de Locais:
 
 | Método HTTP  | Endpoint                | Descrição                               |
 | -------------| ------------------------| ----------------------------------------|
